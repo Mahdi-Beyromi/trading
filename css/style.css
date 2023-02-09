@@ -2,6 +2,9 @@
     font-family: "yekan-regular";
     src: url('fonts/yekan-font/yekan-regular.woff');
 }
+*{
+    font-family: "yekan-regular";
+}
 
 
 /********** Template CSS **********/
@@ -32,7 +35,7 @@
 
 /*** Button ***/
 .btn {
-    font-family: 'Nunito', sans-serif;
+    font-family: "yekan-regular";
     font-weight: 600;
     transition: .5s;
 }
