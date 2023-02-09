@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "yekan-regular";
+    src: url('fonts/yekan-font/yekan-regular.woff');
+}
+
+
 /********** Template CSS **********/
 :root {
     --primary: #86B817;
@@ -64,17 +70,22 @@
 
 
 /*** Navbar ***/
-.navbar-light .navbar-nav .nav-link ,
-.navbar-light .navbar-brand {
-    font-family: 'Nunito', sans-serif;
+.navbar-light .navbar-nav .nav-link {
+    font-family: "yekan-regular";
     position: relative;
     margin-right: 25px;
     padding: 35px 0;
     color: #FFFFFF !important;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
     outline: none;
     transition: .5s;
+}
+
+.navbar-light .btn {
+    font-family: "yekan-regular";
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .sticky-top.navbar-light .navbar-nav .nav-link,
