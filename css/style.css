@@ -2,6 +2,12 @@
     font-family: "yekan-regular";
     src: url('fonts/yekan-font/yekan-regular.woff');
 }
+
+@font-face {
+    font-family: "Vazir-Bold";
+    src: url('fonts/vazir-font-v18.0.0/Vazir-Bold.woff');
+}
+
 *{
     font-family: "yekan-regular";
 }
@@ -179,6 +185,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 40rem;
+}
+
+h1 {
+    font-family: "Vazir-Bold";
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
