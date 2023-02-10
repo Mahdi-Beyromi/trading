@@ -11,6 +11,9 @@
 *{
     font-family: "yekan-regular";
 }
+h1,h5,h6 {
+    font-family: "Vazir-Bold";
+}
 
 
 /********** Template CSS **********/
@@ -187,9 +190,6 @@
     height: 40rem;
 }
 
-h1 {
-    font-family: "Vazir-Bold";
-}
 
 .breadcrumb-item+.breadcrumb-item::before {
     color: rgba(255, 255, 255, .5);
@@ -253,6 +253,7 @@ h1 {
 .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
+    
 }
 
 .service-item:hover {
