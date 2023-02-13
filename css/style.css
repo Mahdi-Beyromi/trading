@@ -183,10 +183,10 @@ h1,h5,h6 {
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(45, 45, 45, .7), rgba(85, 85, 85, 0.7)), url(../images/10812.jpg);
+    background: linear-gradient(rgba(45, 45, 45, .7), rgba(85, 85, 85, 0.7)), url(../images/Money\ transfer\ _Monochromatic.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 40rem;
 }
 
