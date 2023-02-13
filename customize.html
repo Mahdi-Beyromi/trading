@@ -41,7 +41,7 @@
 <body>
 
     <!-- Navbar & Hero Start -->
-    <div class="container-fluid position-relative p-0">
+    <div class="container-fluid position-relative p-0" id="home">
         <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
             <a href="index.html" class="navbar-brand p-0">
                 <img src="images/logo.png" alt="">
@@ -51,21 +51,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">خانه</a>
+                    <a href="#home" class="nav-item nav-link active">خانه</a>
                     <a href="#about" class="nav-item nav-link">درباره ما</a>
                     <a href="service.html" class="nav-item nav-link">خدمات</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> سرمایه گذاری</a>
-                        <div class="dropdown-menu me-auto">
-                            <a href="destination.html" class="dropdown-item">طرح 1</a>
-                            <a href="booking.html" class="dropdown-item">طرح 2</a>
-                            <a href="team.html" class="dropdown-item">طرح 3</a>
-                            <a href="testimonial.html" class="dropdown-item">طرح 4</a>
-                            <a href="404.html" class="dropdown-item">طرح 5</a>
-                            <a href="404.html" class="dropdown-item">طرح 6</a>
-                            <a href="404.html" class="dropdown-item">طرح 7</a>
-                        </div>
-                    </div>
+                    <a href="#package" class="nav-item nav-link">سرمایه گذاری</a>
                     <a href="contact.html" class="nav-item nav-link"> پشتیبانی</a>
                 </div>
                 <button type="button" class="btn btn-outline-primary rounded-3 ms-2">ورود</button>
@@ -82,7 +71,7 @@
                         <p class="fs-7 text-white animated slideInDown">چین کالا متشکل شده است از یک تیم آنالیزگر
                             و
                             اقتصادانان برتر و مشاوران اقتصادی که با رصد کردن بازارهای جهانی و آنالیز ریسک و سرمایه،
-                            اقدام به سرمایه گذاری های بلند و کوتاه مدت
+                            اقدام به سرمایه گذاری های بلند و کوتاه مدت می کنند
                         </p>
                         <div class="position-relative w-75 animated slideInDown">
                             <button type="button"
@@ -97,7 +86,7 @@
     <!-- Navbar & Hero End -->
 
     <!-- About Start -->
-    <div class="container-xxl py-5 about">
+    <div class="container-xxl py-5" id="about">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
@@ -117,30 +106,6 @@
                         و شرکت ما اجناس رو وارد میکنه و میفروشه و قسمتی از سود فروشش رو برای شما واریز میکنه
 
                     </p>
-                    <!-- <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
-                    </p>
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>First Class Flights</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Handpicked Hotels</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>5 Star Accommodations</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Latest Model Vehicles</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>150 Premium City Tours
-                            </p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>24/7 Service</p>
-                        </div>
-                    </div> -->
                     <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">ادامه ...</a>
                 </div>
             </div>
@@ -151,239 +116,107 @@
 
 
     <!-- Package Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">سرمایه گذاری</h6>
-                <h1 class="mb-5">بهترین طرح های سرمایه گذاری</h1>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="package-item">
-                        <div class="overflow-hidden">
-                            <!-- <img class="img-fluid" src="images/gold medal.png" alt=""> -->
-                        </div>
-                        <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt text-primary me-2"></i>Thailand</small>
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2
-                                Person</small>
-                        </div>
-                        <div class="text-center p-4">
-                            <h3 class="mb-0">$149.00</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
+
+    <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M-3.10,117.92 C150.00,150.00 259.30,27.13 504.22,125.82 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #f5f5f5;"></path>
+        </svg></div>
+    <section id="package">
+        <div class="container-xxl py-5 bg-light">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title bg-white text-center text-primary px-3">سرمایه گذاری</h6>
+                    <h1 class="mb-5">بهترین طرح های سرمایه گذاری</h1>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp g-4" data-wow-delay="0.3s">
+                        <div class="card package-item text-center rounded-3">
+                            <div class="card-body">
+                                <h5 class="card-title mb-4">طرح ویژه 1</h5>
+                                <p class="card-text">100 دلار سرمایه</p>
+                                <p class="card-text">واریز ماهیانه </p>
+                                <p class="card-text"> 2 میلیون تومان</p>
+                                <a href="#" class="btn btn-primary rounded-pill mt-4">سرمایه گذاری کنید</a>
                             </div>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
-                            <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
-                                    style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="btn btn-sm btn-primary px-3"
-                                    style="border-radius: 0 30px 30px 0;">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp g-4" data-wow-delay="0.3s">
+                        <div class="card package-item text-center rounded-3">
+                            <div class="card-body">
+                                <h5 class="card-title mb-4">طرح ویژه 2</h5>
+                                <p class="card-text">300 دلار سرمایه</p>
+                                <p class="card-text">واریز ماهیانه </p>
+                                <p class="card-text"> 6 میلیون تومان</p>
+                                <a href="#" class="btn btn-primary rounded-pill mt-4">سرمایه گذاری کنید</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp g-4" data-wow-delay="0.3s">
+                        <div class="card package-item text-center rounded-3">
+                            <div class="card-body">
+                                <h5 class="card-title mb-4">طرح ویژه 3</h5>
+                                <p class="card-text">500 دلار سرمایه</p>
+                                <p class="card-text">واریز ماهیانه </p>
+                                <p class="card-text"> 10 میلیون تومان</p>
+                                <a href="#" class="btn btn-primary rounded-pill mt-4">سرمایه گذاری کنید</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp g-4" data-wow-delay="0.3s">
+                        <div class="card package-item text-center rounded-3">
+                            <div class="card-body">
+                                <h5 class="card-title mb-4">طرح ویژه 4</h5>
+                                <p class="card-text">1000 دلار سرمایه</p>
+                                <p class="card-text">واریز ماهیانه </p>
+                                <p class="card-text"> 22 میلیون تومان</p>
+                                <a href="#" class="btn btn-primary rounded-pill mt-4">سرمایه گذاری کنید</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="package-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/package-2.jpg" alt="">
-                        </div>
-                        <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt text-primary me-2"></i>Indonesia</small>
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2
-                                Person</small>
-                        </div>
-                        <div class="text-center p-4">
-                            <h3 class="mb-0">$139.00</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                            </div>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
-                            <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
-                                    style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="btn btn-sm btn-primary px-3"
-                                    style="border-radius: 0 30px 30px 0;">Book Now</a>
+                <div class="row g-4 justify-content-center mt-5">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp g-4" data-wow-delay="0.3s">
+                        <div class="card package-item text-center rounded-3">
+                            <div class="card-body">
+                                <h5 class="card-title mb-4">طرح ویژه 5</h5>
+                                <p class="card-text">2000 دلار سرمایه</p>
+                                <p class="card-text">واریز ماهیانه </p>
+                                <p class="card-text"> 46 میلیون تومان</p>
+                                <a href="#" class="btn btn-primary rounded-pill mt-4">سرمایه گذاری کنید</a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="package-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/package-3.jpg" alt="">
-                        </div>
-                        <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt text-primary me-2"></i>Malaysia</small>
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2
-                                Person</small>
-                        </div>
-                        <div class="text-center p-4">
-                            <h3 class="mb-0">$189.00</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                            </div>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
-                            <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
-                                    style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="btn btn-sm btn-primary px-3"
-                                    style="border-radius: 0 30px 30px 0;">Book Now</a>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp g-4" data-wow-delay="0.3s">
+                        <div class="card package-item text-center rounded-3">
+                            <div class="card-body">
+                                <h5 class="card-title mb-4">طرح ویژه 6</h5>
+                                <p class="card-text">4000 دلار سرمایه</p>
+                                <p class="card-text">واریز ماهیانه </p>
+                                <p class="card-text"> 95 میلیون تومان</p>
+                                <a href="#" class="btn btn-primary rounded-pill mt-4">سرمایه گذاری کنید</a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="package-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/package-3.jpg" alt="">
-                        </div>
-                        <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt text-primary me-2"></i>Malaysia</small>
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2
-                                Person</small>
-                        </div>
-                        <div class="text-center p-4">
-                            <h3 class="mb-0">$189.00</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                            </div>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
-                            <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
-                                    style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="btn btn-sm btn-primary px-3"
-                                    style="border-radius: 0 30px 30px 0;">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="package-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/package-3.jpg" alt="">
-                        </div>
-                        <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt text-primary me-2"></i>Malaysia</small>
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2
-                                Person</small>
-                        </div>
-                        <div class="text-center p-4">
-                            <h3 class="mb-0">$189.00</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                            </div>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
-                            <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
-                                    style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="btn btn-sm btn-primary px-3"
-                                    style="border-radius: 0 30px 30px 0;">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="package-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/package-3.jpg" alt="">
-                        </div>
-                        <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt text-primary me-2"></i>Malaysia</small>
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2
-                                Person</small>
-                        </div>
-                        <div class="text-center p-4">
-                            <h3 class="mb-0">$189.00</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                            </div>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
-                            <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
-                                    style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="btn btn-sm btn-primary px-3"
-                                    style="border-radius: 0 30px 30px 0;">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="package-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/package-3.jpg" alt="">
-                        </div>
-                        <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt text-primary me-2"></i>Malaysia</small>
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2
-                                Person</small>
-                        </div>
-                        <div class="text-center p-4">
-                            <h3 class="mb-0">$189.00</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                            </div>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
-                            <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
-                                    style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="btn btn-sm btn-primary px-3"
-                                    style="border-radius: 0 30px 30px 0;">Book Now</a>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp g-4" data-wow-delay="0.3s">
+                        <div class="card package-item text-center rounded-3">
+                            <div class="card-body">
+                                <h5 class="card-title mb-4">طرح ویژه 7</h5>
+                                <p class="card-text">8000 دلار سرمایه</p>
+                                <p class="card-text">واریز ماهیانه </p>
+                                <p class="card-text"> 230 میلیون تومان</p>
+                                <a href="#" class="btn btn-primary rounded-pill mt-4">سرمایه گذاری کنید</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+    </section>
+    <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C150.00,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+                style="stroke: none; fill: #f5f5f5 ;"></path>
+        </svg>
     </div>
     <!-- Package End -->
 

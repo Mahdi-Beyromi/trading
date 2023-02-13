@@ -238,7 +238,9 @@ h1,h5,h6 {
 
 /*** Package ***/
 .package-item {
-    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 10px #86B817;
+    border-color: #86B817;
+    border-width: 3px;
 }
 
 .package-item img {
