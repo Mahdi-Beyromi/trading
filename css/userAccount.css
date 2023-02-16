@@ -251,3 +251,9 @@ h6 {
     width: calc(100% + 60px);
     left: 0;
 }
+
+
+
+.wallet .card {
+    border-radius: 15px;
+}
