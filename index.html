@@ -53,9 +53,9 @@
                 <div class="navbar-nav mx-auto py-0">
                     <a href="#home" class="nav-item nav-link active">خانه</a>
                     <a href="#about" class="nav-item nav-link">درباره ما</a>
-                    <a href="service.html" class="nav-item nav-link">خدمات</a>
+                    <a href="#service" class="nav-item nav-link">خدمات</a>
                     <a href="#package" class="nav-item nav-link">سرمایه گذاری</a>
-                    <a href="html/contact.htm" class="nav-item nav-link"> پشتیبانی</a>
+                    <a href="html/contact.html" class="nav-item nav-link"> پشتیبانی</a>
                 </div>
                 <a href="html/userAccount.html" class="btn btn-outline-primary rounded-3 ms-2" tabindex="-1"
                     role="button">ورود</a>
@@ -76,9 +76,10 @@
                             اقدام به سرمایه گذاری های بلند و کوتاه مدت می کنند
                         </p>
                         <div class="position-relative w-75 animated slideInDown">
-                            <button type="button"
+                            <a role="button" href="html/contact.html"
                                 class="btn btn-primary rounded-pill py-2 px-4 position-absolute top-0 end-0 me-2"
-                                style="margin-top: 7px;">سرمایه گذاری کنید</button>
+                                data-bs-target="index.html"
+                                style="margin-top: 7px;">سرمایه گذاری کنید</a>
                         </div>
                     </div>
                 </div>
@@ -108,7 +109,7 @@
                         و شرکت ما اجناس رو وارد میکنه و میفروشه و قسمتی از سود فروشش رو برای شما واریز میکنه
 
                     </p>
-                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">ادامه ...</a>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="#">ادامه ...</a>
                 </div>
             </div>
         </div>
@@ -233,7 +234,7 @@
 
 
     <!-- Service Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id="service">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-primary px-3">خدمات</h6>
