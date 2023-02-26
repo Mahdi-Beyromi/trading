@@ -92,3 +92,31 @@
     
 })(jQuery);
 
+
+
+const addInventory = document.querySelector('#addInventory');
+
+// document.addEventListener('DOMContentLoaded', addwallet);
+
+document.addEventListener('click',addwallet);
+
+
+function addwallet(e){
+    if(addInventory.value == ''){
+        document.getElementById('walletValu').innerHTML = '0';
+    }
+    else{
+        document.getElementById('walletValue').innerHTML = addInventory.value;
+
+
+        addInventory.value = '';
+
+        e.preventDefault();
+
+    }
+    
+}
+
+
+
+
